@@ -2,7 +2,7 @@
 #include "complex.h"
 
 
-void operation_menu(Complex& num1, Complex& num2) {
+void operation_menu(Complex num1, Complex num2) { 
 	bool running = true;
 	int choice;
 	Complex res;
@@ -83,7 +83,7 @@ Complex create_new_complex() {
 
 int main() {
 
-	Complex num1;
+	Complex num1; //this complex number is set by default constructor as per the brief
 	std::cout << "1st Complex number: ";
 	num1.display_complex();
 	std::cout << "\n\n";
