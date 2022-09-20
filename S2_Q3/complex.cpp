@@ -13,10 +13,10 @@ Complex::Complex(int r, int i) {
 
 void Complex::display_complex() {
 	if (this->imaginary > 0) {
-		std::cout << this->real << " + " << this->imaginary << "i\n";
+		std::cout << this->real << " + " << this->imaginary << "i";
 	}
 	else {
-		std::cout << this->real << " - " << this->imaginary << "i\n";
+		std::cout << this->real << " - " << -(this->imaginary) << "i";
 	}
 }
 
