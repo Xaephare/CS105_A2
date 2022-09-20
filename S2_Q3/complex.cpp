@@ -11,7 +11,7 @@ Complex::Complex(int r, int i) {
 	imaginary = i;
 }
 
-void Complex::display_complex() {
+void Complex::display_complex() { //checks for if the imaginary value is negative and changes the linking symbol to match
 	if (this->imaginary > 0) {
 		std::cout << this->real << " + " << this->imaginary << "i";
 	}

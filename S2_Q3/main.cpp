@@ -89,10 +89,7 @@ int main() {
 	std::cout << "\n\n";
 
 	Complex num2 = create_new_complex();
-
 	operation_menu(num1, num2);
-
-
 
 	return 0;
 }
