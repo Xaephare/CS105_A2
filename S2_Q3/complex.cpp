@@ -12,7 +12,12 @@ Complex::Complex(int r, int i) {
 }
 
 void Complex::display_complex() {
-	std::cout << this->real << this->imaginary << "i";
+	if (this->imaginary > 0) {
+		std::cout << this->real << " + " << this->imaginary << "i\n";
+	}
+	else {
+		std::cout << this->real << " - " << this->imaginary << "i\n";
+	}
 }
 
 Complex Complex::operator+(Complex const& obj) {
