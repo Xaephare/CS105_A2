@@ -8,6 +8,10 @@ Complex::Complex(int real, int imaginary) {
 	
 }
 
+void Complex::display_complex() {
+	
+}
+
 Complex Complex::operator+(Complex const& obj) {
 	Complex res;
 	res.real = this->real + obj.real;
